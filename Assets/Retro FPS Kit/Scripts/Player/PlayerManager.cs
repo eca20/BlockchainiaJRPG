@@ -46,7 +46,7 @@ namespace FPSRetroKit
 			{
 				Cursor.lockState = CursorLockMode.None; //show cursor
 				Cursor.visible = true; //show cursor
-				Time.timeScale = 0; //Pasue Game
+				Time.timeScale = 0; //Pause Game
 				pauseMenuScreen.SetActive(true); //Show Pause Screen
 			}
 			else if (Time.timeScale == 0) //If Pause Menu is active
@@ -73,8 +73,8 @@ namespace FPSRetroKit
 			{
 				Cursor.lockState = CursorLockMode.Locked; //Lock Cursor
 				Cursor.visible = false;
-				Time.timeScale = 1; //Pause Time in Game (we can't move, can't shoot, nothing)
-				deathScreen.SetActive(false); //show death screen
+				Time.timeScale = 1; //Unpause Time in Game (we can't move, can't shoot, nothing)
+				deathScreen.SetActive(false); //disable death screen
 			}
 
 		}
