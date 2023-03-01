@@ -15,11 +15,8 @@
 /[Aa]ssets/Retro FPS Kit/[Pp]refabs/
 /[Aa]ssets/Retro FPS Kit/[Rr]esources/
 /[Aa]ssets/Retro FPS Kit/[Ss]cenes/
-<<<<<<< Updated upstream
-=======
 /[Aa]ssets/Retro FPS Kit
 /[Aa]ssets/Retro FPS Kit/[DOCUMENTATION & LICENSES]
->>>>>>> Stashed changes
 
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored

@@ -19,7 +19,7 @@ namespace FPSRetroKit
 
         void Start()
         {
-            source.PlayOneShot(explosionSound); //Play sound on explotion in explotion's place
+            source.PlayOneShot(explosionSound); //Play sound on explosion in explosion's place
         }
     }
 }
